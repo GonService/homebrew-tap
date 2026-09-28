@@ -30,8 +30,13 @@ Com o [Homebrew](https://brew.sh):
 brew install --cask gonservice/tap/reader
 ```
 
-Para atualizar: `brew upgrade --cask reader`. Funciona em Mac Intel e Apple
-Silicon (macOS 11 ou mais novo).
+Para atualizar: `brew upgrade --cask gonservice/tap/reader`. Funciona em Mac
+Intel e Apple Silicon (macOS 11 ou mais novo).
+
+> [!IMPORTANT]
+> Use sempre o nome completo **`gonservice/tap/reader`**. O Homebrew oficial
+> tem outro app chamado `reader` (o Readwise Reader), e `brew install --cask reader`
+> instala aquele, não este.
 
 Prefere sem Homebrew? Baixe o `Reader-X.Y.Z-macos.zip` na
 [página de Releases](https://github.com/GonService/homebrew-tap/releases),
