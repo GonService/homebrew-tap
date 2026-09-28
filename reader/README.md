@@ -1,3 +1,5 @@
+<p align="right"><b>Português</b> · <a href="README.en.md">English</a></p>
+
 <p align="center">
   <img src="imagens/icone.png" width="112" alt="Ícone do Reader">
 </p>

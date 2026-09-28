@@ -1,3 +1,5 @@
+<p align="right"><b>Português</b> · <a href="README.en.md">English</a></p>
+
 # GonService · Homebrew e downloads
 
 Os aplicativos da [GonService](https://gonserviceit.com.br) para instalar pelo
