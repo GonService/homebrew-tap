@@ -7,7 +7,7 @@ Os aplicativos da [GonService](https://gonserviceit.com.br) para instalar pelo
 
 | | App | O que faz | Instalar no Mac |
 |---|---|---|---|
-| <img src="reader/imagens/icone.png" width="40" alt=""> | **[Reader](reader/)** | Lê e edita markdown, texto e código; lê PDF e Word. | `brew install --cask gonservice/tap/reader` |
+| <img src="reader/imagens/icone.png" width="40" alt=""> | **[Reader](reader/)** | Lê e edita markdown, texto e código; lê PDF e Word. | `brew install --cask gonservice/tap/reader-app` |
 
 Cada app tem a sua pasta aqui, com prints e instruções de uso.
 

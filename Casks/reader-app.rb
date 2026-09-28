@@ -1,4 +1,4 @@
-cask "reader" do
+cask "reader-app" do
   version "1.0.0"
   sha256 "b86fda299eea167b9059e1751fb3551a4e50f1fe66256a696b6bb220f23645b8"
 

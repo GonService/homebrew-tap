@@ -27,16 +27,15 @@ de documentação, ler código com cores e dar uma olhada rápida em PDF e Word.
 Com o [Homebrew](https://brew.sh):
 
 ```bash
-brew install --cask gonservice/tap/reader
+brew install --cask gonservice/tap/reader-app
 ```
 
-Para atualizar: `brew upgrade --cask gonservice/tap/reader`. Funciona em Mac
-Intel e Apple Silicon (macOS 11 ou mais novo).
+Para atualizar: `brew upgrade --cask reader-app`. Funciona em Mac Intel e
+Apple Silicon (macOS 11 ou mais novo).
 
-> [!IMPORTANT]
-> Use sempre o nome completo **`gonservice/tap/reader`**. O Homebrew oficial
-> tem outro app chamado `reader` (o Readwise Reader), e `brew install --cask reader`
-> instala aquele, não este.
+O pacote se chama `reader-app` porque `reader` já é o nome de outro app no
+Homebrew (o Readwise Reader). Depois de instalado, o app aparece como
+**Reader** normalmente.
 
 Prefere sem Homebrew? Baixe o `Reader-X.Y.Z-macos.zip` na
 [página de Releases](https://github.com/GonService/homebrew-tap/releases),
