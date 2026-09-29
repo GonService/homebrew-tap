@@ -1,6 +1,6 @@
 cask "reader-app" do
-  version "1.0.3"
-  sha256 "dc2d8ecc1f16948415424533c9463707a57564d9af2cbb56022b80abed3d0e37"
+  version "1.0.4"
+  sha256 "700ed2f4b9573da8f5367f1997efab22dd3c5b0d748fbdb9f033bfc8823ddc68"
 
   url "https://github.com/GonService/homebrew-tap/releases/download/reader-v#{version}/Reader-#{version}-macos.zip"
   name "Reader"
@@ -25,6 +25,11 @@ cask "reader-app" do
 
   zap trash: [
     "~/Library/Application Support/GonService/Reader",
+    "~/Library/Preferences/com.gonservice.reader-app.plist",
     "~/Library/Preferences/com.gonservice.reader.plist",
+    "~/Library/WebKit/com.gonservice.reader-app",
+    "~/Library/WebKit/com.gonservice.reader",
+    "~/Library/Caches/com.gonservice.reader-app",
+    "~/Library/Caches/com.gonservice.reader",
   ]
 end

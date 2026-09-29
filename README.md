@@ -17,11 +17,11 @@ Os aplicativos da [GonService](https://gonserviceit.com.br) para instalar pelo
 | Sistema | Baixar |
 |---|---|
 | macOS, pelo Homebrew | `brew install --cask gonservice/tap/reader-app` |
-| macOS (Intel e Apple Silicon) | [Reader-1.0.3-macos.zip](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.3/Reader-1.0.3-macos.zip) |
-| Windows | [Instalador (.exe)](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.3/Reader-1.0.3-windows-instalador.exe) · [.zip sem instalar](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.3/Reader-1.0.3-windows.zip) |
-| Linux | [Reader-1.0.3-linux-amd64.tar.gz](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.3/Reader-1.0.3-linux-amd64.tar.gz) |
+| macOS (Intel e Apple Silicon) | [Reader-1.0.4-macos.zip](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.4/Reader-1.0.4-macos.zip) |
+| Windows | [Instalador (.exe)](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.4/Reader-1.0.4-windows-instalador.exe) · [.zip sem instalar](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.4/Reader-1.0.4-windows.zip) |
+| Linux | [Reader-1.0.4-linux-amd64.tar.gz](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.4/Reader-1.0.4-linux-amd64.tar.gz) |
 
-Versão atual: **1.0.3** · [todas as versões](https://github.com/GonService/homebrew-tap/releases)
+Versão atual: **1.0.4** · [todas as versões](https://github.com/GonService/homebrew-tap/releases)
 <!-- /downloads:reader -->
 
 ## Projetos
