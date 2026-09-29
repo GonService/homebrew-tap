@@ -7,7 +7,7 @@
 <h1 align="center">Reader</h1>
 
 <p align="center">
-  A reader and editor for markdown, text and code — that also reads PDF and Word.<br>
+  A reader and editor for markdown, text and code — that also opens PDF, Word and images.<br>
   Made by <a href="https://gonserviceit.com.br">GonService</a>. Free, for macOS, Windows and Linux.
 </p>
 
@@ -85,6 +85,7 @@ sudo dnf install webkit2gtk4.1            # Fedora
 | Code (`.py`, `.go`, `.php`, `.js`, `.sql`, `.json`…) | Line numbers and syntax colors | Yes |
 | PDF | Pages, search, zoom and the PDF's own table of contents | Read-only |
 | Word (`.docx`) | Flowing document: headings, lists, tables and images | Read-only |
+| Image (`.png`, `.jpg`, `.gif`, `.webp`, `.svg`…) | Fit to window, with zoom and actual size | Read-only |
 
 <table>
   <tr>
@@ -109,7 +110,8 @@ sudo dnf install webkit2gtk4.1            # Fedora
 
 - **Open:** double-click a `.md` (Reader can be the default app), drag files or
   folders onto the window, or press `⌘O` / `⇧⌘O`.
-- **Folder:** open a folder to see its file tree in the sidebar. The funnel
+- **Folder:** open a folder to see its file tree in the sidebar; if it has a
+  `README.md`, it opens right away. The funnel
   shows only documents (`.md`, `.txt`, `.pdf`, `.docx`); the *Filter* field
   finds files by name.
 - **Outline:** the list icon, next to the folder icon, shows the document's

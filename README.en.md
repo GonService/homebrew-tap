@@ -28,7 +28,7 @@ Current version: **1.0.1** · [all versions](https://github.com/GonService/homeb
 
 | | App | What it does | Install on Mac |
 |---|---|---|---|
-| <img src="reader/imagens/icone.png" width="40" alt=""> | **[Reader](reader/README.en.md)** | Reads and edits markdown, text and code; reads PDF and Word. | `brew install --cask gonservice/tap/reader-app` |
+| <img src="reader/imagens/icone.png" width="40" alt=""> | **[Reader](reader/README.en.md)** | Reads and edits markdown, text and code; opens PDF, Word and images. | `brew install --cask gonservice/tap/reader-app` |
 
 Each app has its own folder here, with screenshots and usage instructions.
 

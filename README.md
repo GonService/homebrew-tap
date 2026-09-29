@@ -28,7 +28,7 @@ Versão atual: **1.0.1** · [todas as versões](https://github.com/GonService/ho
 
 | | App | O que faz | Instalar no Mac |
 |---|---|---|---|
-| <img src="reader/imagens/icone.png" width="40" alt=""> | **[Reader](reader/)** | Lê e edita markdown, texto e código; lê PDF e Word. | `brew install --cask gonservice/tap/reader-app` |
+| <img src="reader/imagens/icone.png" width="40" alt=""> | **[Reader](reader/)** | Lê e edita markdown, texto e código; abre PDF, Word e imagens. | `brew install --cask gonservice/tap/reader-app` |
 
 Cada app tem a sua pasta aqui, com prints e instruções de uso.
 
