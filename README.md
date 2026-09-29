@@ -5,6 +5,25 @@
 Os aplicativos da [GonService](https://gonserviceit.com.br) para instalar pelo
 [Homebrew](https://brew.sh) (macOS) ou baixar direto para Windows e Linux.
 
+## Baixar o Reader
+
+<img src="reader/imagens/icone.png" width="56" align="left" alt="">
+
+**Reader** — lê e edita markdown, texto e código; lê PDF e Word.
+[Ver prints e como usar →](reader/)
+<br clear="left">
+
+<!-- downloads:reader -->
+| Sistema | Baixar |
+|---|---|
+| macOS, pelo Homebrew | `brew install --cask gonservice/tap/reader-app` |
+| macOS (Intel e Apple Silicon) | [Reader-1.0.0-macos.zip](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.0/Reader-1.0.0-macos.zip) |
+| Windows | [Instalador (.exe)](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.0/Reader-1.0.0-windows-instalador.exe) · [.zip sem instalar](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.0/Reader-1.0.0-windows.zip) |
+| Linux | [Reader-1.0.0-linux-amd64.tar.gz](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.0/Reader-1.0.0-linux-amd64.tar.gz) |
+
+Versão atual: **1.0.0** · [todas as versões](https://github.com/GonService/homebrew-tap/releases)
+<!-- /downloads:reader -->
+
 ## Projetos
 
 | | App | O que faz | Instalar no Mac |
