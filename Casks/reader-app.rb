@@ -1,6 +1,6 @@
 cask "reader-app" do
-  version "1.0.2"
-  sha256 "ae7785c621ac3750e79a45f20d623dcd1a4ac97fadb19c0a645892c4e64d82b9"
+  version "1.0.3"
+  sha256 "dc2d8ecc1f16948415424533c9463707a57564d9af2cbb56022b80abed3d0e37"
 
   url "https://github.com/GonService/homebrew-tap/releases/download/reader-v#{version}/Reader-#{version}-macos.zip"
   name "Reader"
