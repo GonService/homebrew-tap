@@ -108,6 +108,10 @@ sudo dnf install webkit2gtk4.1            # Fedora
 
 ## How to use it
 
+- **Create:** `⌘N` opens an "Untitled" file ready to type. You only pick
+  where to keep it and its name when saving (`⌘S`); closing first asks.
+- **Several windows:** `⇧⌘N` (or right-click the Dock icon → New Window)
+  opens another Reader, to see files from different folders side by side.
 - **Open:** double-click a `.md` (Reader can be the default app), drag files or
   folders onto the window, or press `⌘O` / `⇧⌘O`.
 - **Folder:** open a folder to see its file tree in the sidebar; if it has a
@@ -130,10 +134,13 @@ sudo dnf install webkit2gtk4.1            # Fedora
 
 | Mac | Windows / Linux | What it does |
 |---|---|---|
+| `⌘N` | `Ctrl+N` | New file |
+| `⇧⌘N` | `Ctrl+Shift+N` | New window |
 | `⌘O` | `Ctrl+O` | Open file |
 | `⇧⌘O` | `Ctrl+Shift+O` | Open folder |
 | `⌘E` | `Ctrl+E` | Read / Edit |
 | `⌘S` | `Ctrl+S` | Save |
+| `⇧⌘S` | `Ctrl+Shift+S` | Save as… |
 | `⌘W` | `Ctrl+W` | Close tab |
 | `⇧⌘]` / `⇧⌘[` | `Ctrl+Shift+]` / `[` | Next / previous tab |
 | `⌘\` | `Ctrl+\` | Show / hide the sidebar |

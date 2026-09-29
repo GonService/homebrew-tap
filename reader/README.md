@@ -109,6 +109,10 @@ sudo dnf install webkit2gtk4.1            # Fedora
 
 ## Como usar
 
+- **Criar:** `⌘N` abre um arquivo "Sem título" já para escrever. Você só
+  escolhe onde guardar e com que nome ao salvar (`⌘S`); fechar antes pergunta.
+- **Várias janelas:** `⇧⌘N` (ou botão direito no ícone do Dock → Nova janela)
+  abre outro Reader, para ver arquivos de pastas diferentes lado a lado.
 - **Abrir:** duplo clique num `.md` (o Reader pode ser o app padrão), arrastar
   arquivos ou pastas para a janela, ou `⌘O` / `⇧⌘O`.
 - **Pasta:** abra uma pasta para ver a árvore de arquivos na barra lateral; se
@@ -130,10 +134,13 @@ sudo dnf install webkit2gtk4.1            # Fedora
 
 | Atalho (Mac) | Windows / Linux | O que faz |
 |---|---|---|
+| `⌘N` | `Ctrl+N` | Arquivo novo |
+| `⇧⌘N` | `Ctrl+Shift+N` | Nova janela |
 | `⌘O` | `Ctrl+O` | Abrir arquivo |
 | `⇧⌘O` | `Ctrl+Shift+O` | Abrir pasta |
 | `⌘E` | `Ctrl+E` | Ler / Editar |
 | `⌘S` | `Ctrl+S` | Salvar |
+| `⇧⌘S` | `Ctrl+Shift+S` | Salvar como… |
 | `⌘W` | `Ctrl+W` | Fechar aba |
 | `⇧⌘]` / `⇧⌘[` | `Ctrl+Shift+]` / `[` | Próxima / aba anterior |
 | `⌘\` | `Ctrl+\` | Mostrar / esconder a barra lateral |
