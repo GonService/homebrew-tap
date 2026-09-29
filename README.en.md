@@ -17,11 +17,11 @@
 | System | Download |
 |---|---|
 | macOS, with Homebrew | `brew install --cask gonservice/tap/reader-app` |
-| macOS (Intel and Apple Silicon) | [Reader-1.0.1-macos.zip](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.1/Reader-1.0.1-macos.zip) |
-| Windows | [Installer (.exe)](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.1/Reader-1.0.1-windows-instalador.exe) · [.zip, no install](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.1/Reader-1.0.1-windows.zip) |
-| Linux | [Reader-1.0.1-linux-amd64.tar.gz](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.1/Reader-1.0.1-linux-amd64.tar.gz) |
+| macOS (Intel and Apple Silicon) | [Reader-1.0.2-macos.zip](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.2/Reader-1.0.2-macos.zip) |
+| Windows | [Installer (.exe)](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.2/Reader-1.0.2-windows-instalador.exe) · [.zip, no install](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.2/Reader-1.0.2-windows.zip) |
+| Linux | [Reader-1.0.2-linux-amd64.tar.gz](https://github.com/GonService/homebrew-tap/releases/download/reader-v1.0.2/Reader-1.0.2-linux-amd64.tar.gz) |
 
-Current version: **1.0.1** · [all versions](https://github.com/GonService/homebrew-tap/releases)
+Current version: **1.0.2** · [all versions](https://github.com/GonService/homebrew-tap/releases)
 <!-- /downloads:reader -->
 
 ## Apps
