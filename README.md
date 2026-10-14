@@ -24,11 +24,28 @@ Os aplicativos da [GonService](https://gonserviceit.com.br) para instalar pelo
 Versão atual: **1.0.4** · [todas as versões](https://github.com/GonService/homebrew-tap/releases)
 <!-- /downloads:reader -->
 
+## Baixar o Gantry
+
+<img src="gantry/imagens/icone.png" width="56" align="left" alt="">
+
+**Gantry** — containers, VMs e clusters Kubernetes desta máquina e dos servidores, numa janela só.
+[Ver o que faz e como usar →](gantry/)
+<br clear="left">
+
+<!-- downloads:gantry -->
+| Sistema | Baixar |
+|---|---|
+| macOS, pelo Homebrew | `brew install --cask gonservice/tap/gantry` |
+
+Os arquivos para baixar direto aparecem aqui assim que a primeira versão for publicada.
+<!-- /downloads:gantry -->
+
 ## Projetos
 
 | | App | O que faz | Instalar no Mac |
 |---|---|---|---|
 | <img src="reader/imagens/icone.png" width="40" alt=""> | **[Reader](reader/)** | Lê e edita markdown, texto e código; abre PDF, Word e imagens. | `brew install --cask gonservice/tap/reader-app` |
+| <img src="gantry/imagens/icone.png" width="40" alt=""> | **[Gantry](gantry/)** | Gerencia containers (Docker, Podman, containerd), VMs e clusters Kubernetes, locais e por SSH. | `brew install --cask gonservice/tap/gantry` |
 
 Cada app tem a sua pasta aqui, com prints e instruções de uso.
 
@@ -51,7 +68,7 @@ Cada Release lista qual arquivo baixar para cada sistema.
 
 - `Casks/` — as receitas do Homebrew. São atualizadas automaticamente a cada
   versão nova de um app; não edite à mão.
-- Uma pasta por app (`reader/`, …) — o que ele faz, prints e como usar.
+- Uma pasta por app (`reader/`, `gantry/`, …) — o que ele faz, prints e como usar.
 - O código-fonte dos apps fica em repositórios privados da GonService; aqui
   ficam só os instaladores e a documentação.
 
