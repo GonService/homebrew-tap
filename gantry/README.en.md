@@ -28,11 +28,11 @@ terminal shows up right away, and projects are your own `compose.yaml` files.
 | System | Download |
 |---|---|
 | macOS, with Homebrew | `brew install --cask gonservice/tap/gantry` |
-| macOS (Intel and Apple Silicon) | [Gantry-0.41.0-macos.zip](https://github.com/GonService/homebrew-tap/releases/download/gantry-v0.41.0/Gantry-0.41.0-macos.zip) |
-| Windows (experimental) | [Gantry-0.41.0-windows.zip](https://github.com/GonService/homebrew-tap/releases/download/gantry-v0.41.0/Gantry-0.41.0-windows.zip) |
-| Headless Linux server (opens in the browser) | [amd64](https://github.com/GonService/homebrew-tap/releases/download/gantry-v0.41.0/gantry-servidor-0.41.0-linux-amd64.tar.gz) · [arm64](https://github.com/GonService/homebrew-tap/releases/download/gantry-v0.41.0/gantry-servidor-0.41.0-linux-arm64.tar.gz) |
+| macOS (Intel and Apple Silicon) | [Gantry-0.42.0-macos.zip](https://github.com/GonService/homebrew-tap/releases/download/gantry-v0.42.0/Gantry-0.42.0-macos.zip) |
+| Windows (experimental) | [Gantry-0.42.0-windows.zip](https://github.com/GonService/homebrew-tap/releases/download/gantry-v0.42.0/Gantry-0.42.0-windows.zip) |
+| Headless Linux server (opens in the browser) | [amd64](https://github.com/GonService/homebrew-tap/releases/download/gantry-v0.42.0/gantry-servidor-0.42.0-linux-amd64.tar.gz) · [arm64](https://github.com/GonService/homebrew-tap/releases/download/gantry-v0.42.0/gantry-servidor-0.42.0-linux-arm64.tar.gz) |
 
-Current version: **0.41.0** · [all versions](https://github.com/GonService/homebrew-tap/releases)
+Current version: **0.42.0** · [all versions](https://github.com/GonService/homebrew-tap/releases)
 <!-- /downloads:gantry -->
 
 ### macOS
