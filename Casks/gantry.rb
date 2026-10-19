@@ -1,6 +1,6 @@
 cask "gantry" do
-  version "0.44.0"
-  sha256 "dec7c14876f8128dc7abee882ab695e8bb904b48f9a7ddb0572c661b99351a37"
+  version "0.45.0"
+  sha256 "535c2d3076df3837a32434b214e941d50b83d3a03efb77e94681dd75bc618afe"
 
   url "https://github.com/GonService/homebrew-tap/releases/download/gantry-v#{version}/Gantry-#{version}-macos.zip"
   name "Gantry"
