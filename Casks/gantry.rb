@@ -1,11 +1,11 @@
 cask "gantry" do
-  version "0.47.1"
-  sha256 "c3b56ea953b9274a1515b24ed2bd5558eab67747ca3d625f8319f9bf40ffc827"
+  version "0.48.0"
+  sha256 "b4d2222bd2084e6cab3729b423cc1d463b93a5eec92e235cf04544a09052d29b"
 
-  url "https://github.com/GonService/homebrew-tap/releases/download/gantry-v#{version}/Gantry-#{version}-macos.zip"
+  url "https://github.com/GonService/gantry/releases/download/v#{version}/Gantry-#{version}-macos.zip"
   name "Gantry"
   desc "Manage containers, VMs and Kubernetes clusters on local and remote machines"
-  homepage "https://github.com/GonService/homebrew-tap/tree/main/gantry"
+  homepage "https://gonservice.github.io/gantry/"
 
   depends_on :macos
 
