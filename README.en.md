@@ -36,12 +36,12 @@ Current version: **1.0.4** · [all versions](https://github.com/GonService/homeb
 | System | Download |
 |---|---|
 | macOS, with Homebrew | `brew install --cask gonservice/tap/gantry` |
-| macOS (Intel and Apple Silicon) | [Gantry-0.47.0-macos.zip](https://github.com/GonService/homebrew-tap/releases/download/gantry-v0.47.0/Gantry-0.47.0-macos.zip) |
-| Windows (experimental) | [Gantry-0.47.0-windows.zip](https://github.com/GonService/homebrew-tap/releases/download/gantry-v0.47.0/Gantry-0.47.0-windows.zip) |
-| Linux, desktop app (x86_64) | [Gantry-0.47.0-linux-amd64.tar.gz](https://github.com/GonService/homebrew-tap/releases/download/gantry-v0.47.0/Gantry-0.47.0-linux-amd64.tar.gz) |
-| Headless Linux server (opens in the browser) | [amd64](https://github.com/GonService/homebrew-tap/releases/download/gantry-v0.47.0/gantry-servidor-0.47.0-linux-amd64.tar.gz) · [arm64](https://github.com/GonService/homebrew-tap/releases/download/gantry-v0.47.0/gantry-servidor-0.47.0-linux-arm64.tar.gz) |
+| macOS (Intel and Apple Silicon) | [Gantry-0.47.1-macos.zip](https://github.com/GonService/homebrew-tap/releases/download/gantry-v0.47.1/Gantry-0.47.1-macos.zip) |
+| Windows (experimental) | [Gantry-0.47.1-windows.zip](https://github.com/GonService/homebrew-tap/releases/download/gantry-v0.47.1/Gantry-0.47.1-windows.zip) |
+| Linux, desktop app (x86_64) | [Gantry-0.47.1-linux-amd64.tar.gz](https://github.com/GonService/homebrew-tap/releases/download/gantry-v0.47.1/Gantry-0.47.1-linux-amd64.tar.gz) |
+| Headless Linux server (opens in the browser) | [amd64](https://github.com/GonService/homebrew-tap/releases/download/gantry-v0.47.1/gantry-servidor-0.47.1-linux-amd64.tar.gz) · [arm64](https://github.com/GonService/homebrew-tap/releases/download/gantry-v0.47.1/gantry-servidor-0.47.1-linux-arm64.tar.gz) |
 
-Current version: **0.47.0** · [all versions](https://github.com/GonService/homebrew-tap/releases)
+Current version: **0.47.1** · [all versions](https://github.com/GonService/homebrew-tap/releases)
 <!-- /downloads:gantry -->
 
 ## Apps
