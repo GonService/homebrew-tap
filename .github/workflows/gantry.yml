@@ -1,0 +1,95 @@
+name: Gantry
+
+# Traz para cá a release mais nova do Gantry (GonService/gantry, que é
+# público): a cópia com a tag gantry-vX.Y.Z (os apps até a 0.47 procuram
+# versões novas aqui), a receita Casks/gantry.rb e os links das páginas de
+# download. Roda sozinho a cada hora; Actions › Gantry › Run workflow roda na
+# hora (e aceita uma versão, para refazer uma antiga).
+# Usa só o token deste repositório: nenhum segredo.
+
+on:
+  schedule:
+    - cron: "23 * * * *"
+  workflow_dispatch:
+    inputs:
+      versao:
+        description: "Versão (vazio: a mais nova)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gantry
+  cancel-in-progress: false
+
+jobs:
+  espelhar:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ORIGEM: GonService/gantry
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Versão
+        id: v
+        env:
+          PEDIDA: ${{ inputs.versao }}
+        run: |
+          V="${PEDIDA#v}"
+          if [ -z "$V" ]; then
+            V=$(gh release view -R "$ORIGEM" --json tagName -q .tagName)
+            V="${V#v}"
+          fi
+          echo "$V" | grep -Eq '^[0-9]+\.[0-9]+\.[0-9]+$' || { echo "::error::Versão inválida: $V"; exit 1; }
+          echo "v=$V" >> "$GITHUB_OUTPUT"
+          if gh release view "gantry-v$V" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1 \
+             && grep -q "version \"$V\"" Casks/gantry.rb 2>/dev/null; then
+            echo "A $V já está aqui."
+            echo "feito=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.v.outputs.feito != 'true'
+        with:
+          repository: GonService/gantry
+          ref: v${{ steps.v.outputs.v }}
+          path: origem
+
+      - name: Cópia da release
+        if: steps.v.outputs.feito != 'true'
+        env:
+          V: ${{ steps.v.outputs.v }}
+        run: |
+          gh release download "v$V" -R "$ORIGEM" --dir out
+          gh release view "v$V" -R "$ORIGEM" --json body -q .body > notas.md
+          ls -l out
+          if gh release view "gantry-v$V" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "gantry-v$V" out/* -R "$GITHUB_REPOSITORY" --clobber
+          else
+            gh release create "gantry-v$V" out/* -R "$GITHUB_REPOSITORY" --target main --title "Gantry $V" --notes-file notas.md
+          fi
+
+      - name: Receita e páginas de download
+        if: steps.v.outputs.feito != 'true'
+        env:
+          V: ${{ steps.v.outputs.v }}
+        run: |
+          SHA=$(sha256sum "out/Gantry-$V-macos.zip" | cut -d' ' -f1)
+          ASSINADO=false
+          grep -q "assinado e notarizado" notas.md && ASSINADO=true
+          bash origem/scripts/cask.sh "$V" "$SHA" "$ASSINADO" > Casks/gantry.rb
+          PAGINAS=$(ls README.md README.en.md gantry/README.md gantry/README.en.md 2>/dev/null || true)
+          python3 origem/scripts/downloads.py "$V" $PAGINAS
+          git config user.name "GonService"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add Casks/gantry.rb $PAGINAS
+          git diff --cached --quiet && { echo "Nada mudou."; exit 0; }
+          git commit -m "gantry $V"
+          for tentativa in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep $((tentativa * 5))
+          done
+          echo "::error::Não consegui enviar a receita."
+          exit 1
