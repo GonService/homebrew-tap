@@ -36,12 +36,12 @@ Versão atual: **1.0.4** · [todas as versões](https://github.com/GonService/ho
 | Sistema | Baixar |
 |---|---|
 | macOS, pelo Homebrew | `brew install --cask gonservice/tap/gantry` |
-| macOS (Intel e Apple Silicon) | [Gantry-0.49.0-macos.zip](https://github.com/GonService/gantry/releases/download/v0.49.0/Gantry-0.49.0-macos.zip) |
-| Windows (experimental) | [Gantry-0.49.0-windows.zip](https://github.com/GonService/gantry/releases/download/v0.49.0/Gantry-0.49.0-windows.zip) |
-| Linux, app desktop (x86_64) | [Gantry-0.49.0-linux-amd64.tar.gz](https://github.com/GonService/gantry/releases/download/v0.49.0/Gantry-0.49.0-linux-amd64.tar.gz) |
-| Servidor Linux, sem tela (abre no navegador) | [amd64](https://github.com/GonService/gantry/releases/download/v0.49.0/gantry-servidor-0.49.0-linux-amd64.tar.gz) · [arm64](https://github.com/GonService/gantry/releases/download/v0.49.0/gantry-servidor-0.49.0-linux-arm64.tar.gz) |
+| macOS (Intel e Apple Silicon) | [Gantry-0.51.0-macos.zip](https://github.com/GonService/gantry/releases/download/v0.51.0/Gantry-0.51.0-macos.zip) |
+| Windows (experimental) | [Gantry-0.51.0-windows.zip](https://github.com/GonService/gantry/releases/download/v0.51.0/Gantry-0.51.0-windows.zip) |
+| Linux, app desktop (x86_64) | [Gantry-0.51.0-linux-amd64.tar.gz](https://github.com/GonService/gantry/releases/download/v0.51.0/Gantry-0.51.0-linux-amd64.tar.gz) |
+| Servidor Linux, sem tela (abre no navegador) | [amd64](https://github.com/GonService/gantry/releases/download/v0.51.0/gantry-servidor-0.51.0-linux-amd64.tar.gz) · [arm64](https://github.com/GonService/gantry/releases/download/v0.51.0/gantry-servidor-0.51.0-linux-arm64.tar.gz) |
 
-Versão atual: **0.49.0** · [todas as versões](https://github.com/GonService/gantry/releases)
+Versão atual: **0.51.0** · [todas as versões](https://github.com/GonService/gantry/releases)
 <!-- /downloads:gantry -->
 
 ## Projetos
